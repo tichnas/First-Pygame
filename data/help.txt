@@ -1,0 +1,49 @@
+--Help Page--
+Press 'Space' to continue on next Help Page.
+
+--General Keys--
+Press 'Esc' to quit the game.
+Press 'Space' to pause/unpause the game.
+Press 'F' to switch between window size.
+Press 'M' to go to menu screen anytime.
+
+--Gameplay--
+There are 2 players in the game.
+1st Player starts from the bottom and has to go to top to finish level.
+2nd Player starts from top and has to go to bottom to finish level.
+Turn will go to other player if the player collides with a obstacle or his score becomes 0.
+
+--Controls--
+Both the players can move in any direction with arrow keys.
+
+--Obstacles--
+There are 2 types of obstacles:
+1. Zombies: Moving, will change direction on reaching extreme left or right.
+Speed of zombies will increase depending on level.
+2. Monsters: Static
+
+--Scoring--
+Each player will start with a base score 30.
+Each second score will decrease by 1 point of current player.
+Score will increase by 4 on crossing a zombie.
+Score will increase by 2 on crossing a monster.
+After finishing a level, score will increase by 5 * current level.
+
+--Ending Game--
+The current game will end if score of both players become 0.
+You can manually end the game by going to menu or quitting the game.
+Winner will be declared based on level.
+If level is same, score will be considered.
+
+--Cheats--
+There are also some cheats in the game.
+Figure them out ;)
+
+-----------
+HAVE FUN !!
+
+Created by: Sanchit Arora (tichnas)
+Roll no: 2019101047
+
+
+
