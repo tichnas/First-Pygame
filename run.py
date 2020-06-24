@@ -195,7 +195,7 @@ def start_play():
     p_y = scr_height - img_height / 2
     mv_obs_crossed = 0
     st_obs_crossed = 0
-    score = [3, 3]
+    score = [30, 30]
     level = [1, 1]
     dying = 0
     generate_obs()
@@ -505,7 +505,7 @@ def declare_winner():
     if level[1] > level[0] or (level[1] == level[0] and score[1] > score[0]):
         string = "Player 2 Won"
     if level[0] > level[1] or (level[1] == level[0] and score[0] > score[1]):
-        string = "Player 2 Won"
+        string = "Player 1 Won"
     load_text(string, 1, (255, 255, 255), "centery", scr_height / 2, "centerx",
               scr_width / 2)
     pygame.display.update()
